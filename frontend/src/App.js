@@ -197,6 +197,7 @@ class App extends React.Component {
                             <div style={{flex:1}}>
                                 <button onClick={() => self.startEdit(task)} className="btn btn-sm btn-outline-info">Edit</button>
                             </div>
+                             <Text> Hi Suraj we are editing file </Text> 
 
                             <div style={{flex:1}}>
                                 <button onClick={() => self.deleteItem(task)} className="btn btn-sm btn-outline-dark delete">-</button>
